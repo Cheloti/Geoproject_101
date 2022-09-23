@@ -1,0 +1,38 @@
+#map {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
+/* Style coordinate div */
+.map-coordinate {
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Should appear at the center of the map */
+  transform: translateX(-50%); /* To exactly appear at the center */
+  padding: 8px;
+  color: #ffffff;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+.zoom-to-layer {
+  z-index: 800;
+  top: 500px;
+}
+
+.full-screen {
+  padding: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+
+.zoom-to-layer {
+  padding: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 10px;
+  top: 200px;
+}
